@@ -1298,8 +1298,12 @@ textarea:focus-visible {
   }
 
   .about-index {
-    right: 0.15em;
-    bottom: 8px;
+    position: relative;
+    order: 99;
+    right: auto;
+    bottom: auto;
+    justify-self: end;
+    margin: 36px 0.15em 0 0;
     font-size: 96px;
   }
 
